@@ -24,6 +24,11 @@ public class BarUI : MonoBehaviour
         return (int) bar.value;
     }
 
+    public void SetValue(int value)
+    {
+        bar.value = value;
+    }
+
     // Update is called once per frame
     public void SetCurrentHealth(int value)
     {

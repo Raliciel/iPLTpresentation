@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 464754982}
   - component: {fileID: 464754981}
   - component: {fileID: 464754980}
+  - component: {fileID: 464754983}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -211,7 +212,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 464754981}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 464754983}
+        m_TargetAssemblyTypeName: LoadNewScreen, Assembly-CSharp
+        m_MethodName: LoadScreen
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &464754981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,6 +263,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464754978}
   m_CullTransparentMesh: 1
+--- !u!114 &464754983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464754978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846f8ac6b4dfb7e4781565dc38612572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneBuildIndexToLoad: 0
 --- !u!224 &523677555 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5486598152293347963, guid: 2b488492c66ff5a449236796a2238e4d, type: 3}

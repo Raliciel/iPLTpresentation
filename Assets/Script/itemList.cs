@@ -21,7 +21,7 @@ public class itemList : MonoBehaviour
             Debug.Log("data error: no item found");
             return null;
         }
-        return item[Random.Range(0, item.Count - 1)];
+        return item[Random.Range(0, item.Count)];
     }
 
     public static void RandomDrop(Transform ttransform)
