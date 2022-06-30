@@ -62,6 +62,7 @@ public class characterGameObject : MonoBehaviour
         {
             StaminaBar.SetCurrentHealth(0);
         }
+        itemList.RandomDrop(transform);
         Destroy(gameObject);
     }
     public void TakeDamage(int damage)

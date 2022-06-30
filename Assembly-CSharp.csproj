@@ -53,19 +53,23 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Character.cs" />
-    <Compile Include="Assets\Script\characterGameObject.cs" />
-    <Compile Include="Assets\Script\LoadNewScreen.cs" />
-    <Compile Include="Assets\Script\BarUI.cs" />
     <Compile Include="Assets\Script\Billboard.cs" />
-    <Compile Include="Assets\Script\AppearOnClick.cs" />
+    <Compile Include="Assets\Script\LoadNewScreen.cs" />
     <Compile Include="Assets\Script\RandomSpawn.cs" />
+    <Compile Include="Assets\Script\DeleteAfterCreate.cs" />
     <Compile Include="Assets\Script\Stamina.cs" />
-    <Compile Include="Assets\ClickEvent.cs" />
-    <Compile Include="Assets\EnemyAI.cs" />
-    <Compile Include="Assets\HealthBar.cs" />
-    <Compile Include="Assets\DamagePopUp.cs" />
-    <Compile Include="Assets\DeleteAfterCreate.cs" />
+    <Compile Include="Assets\Script\DamagePopUp.cs" />
+    <Compile Include="Assets\Script\HealthBar.cs" />
+    <Compile Include="Assets\Script\BarUI.cs" />
+    <Compile Include="Assets\Script\EnemyAI.cs" />
+    <Compile Include="Assets\Script\Character.cs" />
+    <Compile Include="Assets\Script\AppearOnClick.cs" />
+    <Compile Include="Assets\Script\ClickEvent.cs" />
+    <Compile Include="Assets\Script\characterGameObject.cs" />
+    <Compile Include="Assets\Script\ItemTemplate.cs" />
+    <Compile Include="Assets\Script\Item.cs" />
+    <Compile Include="Assets\Script\itemList.cs" />
+    <Compile Include="Assets\Script\ItemDropDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
